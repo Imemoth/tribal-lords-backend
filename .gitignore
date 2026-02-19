@@ -1,0 +1,24 @@
+# Dependencies (node_modules nagyon nagy, felesleges)
+node_modules/
+
+# Environment változók (TITKOS adatok!)
+.env
+
+# Log fájlok
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS specifikus fájlok
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# IDE beállítások
+.vscode/       # VS Code
+.idea/         # IntelliJ/WebStorm
+*.swp          # Vim
+*.swo          # Vim
+
+# Build output (ha lesz)
+dist/
+build/
